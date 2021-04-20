@@ -1,4 +1,20 @@
 # Inmana
+
+<h2 id="techs">
+  🚀 Technologies
+</h2>
+
+This project uses to work:
+
+- [Elixir](https://elixir-lang.org/)
+- [Phoenix Framework](https://www.phoenixframework.org/)
+- [Dotenv](https://github.com/avdi/dotenv_elixir)
+- [Bcrypt](https://github.com/riverrun/bcrypt_elixir)
+- [Credo](https://github.com/rrrene/credo)
+- [ExCoveralls](https://github.com/parroty/excoveralls)
+
+<br>
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
