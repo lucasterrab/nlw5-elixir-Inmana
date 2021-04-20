@@ -16,7 +16,6 @@ This project uses:
 - [Bcrypt](https://github.com/riverrun/bcrypt_elixir)
 - [Credo](https://github.com/rrrene/credo)
 - [ExCoveralls](https://github.com/parroty/excoveralls)
-<br>
 
 ## To start your Phoenix server:
 
