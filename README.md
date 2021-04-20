@@ -1,10 +1,14 @@
 # Inmana
 
+<p align="center" id="project">
+  Inmana is an application for managing restaurant products. It sends weekly emails telling you which products are close to spoiling.
+</p>
+
 <h2 id="techs">
   🚀 Technologies
 </h2>
 
-This project uses to work:
+This project uses:
 
 - [Elixir](https://elixir-lang.org/)
 - [Phoenix Framework](https://www.phoenixframework.org/)
@@ -15,7 +19,7 @@ This project uses to work:
 
 <br>
 
-To start your Phoenix server:
+## To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
   * Create and migrate your database with `mix ecto.setup`
