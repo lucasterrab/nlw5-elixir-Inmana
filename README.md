@@ -1,7 +1,23 @@
 # Inmana
-<<<<<<< HEAD
 
-To start your Phoenix server:
+<p align="center" id="project">
+  Inmana is an application for managing restaurant products. It sends weekly emails telling you which products are close to spoiling.
+</p>
+
+<h2 id="techs">
+  🚀 Technologies
+</h2>
+
+This project uses:
+
+- [Elixir](https://elixir-lang.org/)
+- [Phoenix Framework](https://www.phoenixframework.org/)
+- [Dotenv](https://github.com/avdi/dotenv_elixir)
+- [Bcrypt](https://github.com/riverrun/bcrypt_elixir)
+- [Credo](https://github.com/rrrene/credo)
+- [ExCoveralls](https://github.com/parroty/excoveralls)
+
+## To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
   * Create and migrate your database with `mix ecto.setup`
@@ -18,5 +34,3 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
-=======
->>>>>>> 285d09532e6d70aa871781a532a5e8125e1c6cbb
