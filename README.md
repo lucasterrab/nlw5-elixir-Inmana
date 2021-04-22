@@ -17,6 +17,9 @@ This project uses:
 - [Credo](https://github.com/rrrene/credo)
 - [ExCoveralls](https://github.com/parroty/excoveralls)
 
+### Obs
+For now, the scheduler is using 10 seconds. If you want to change that, just go to lib/inmana/supplies/scheduler.ex and change line 30 where it says 1000 * 10 to 1000 * 60 * 60 * 24 * 7
+
 ## To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
