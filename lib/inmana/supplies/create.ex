@@ -3,9 +3,9 @@ defmodule Inmana.Supplies.Create do
 
   def call(params) do
     params
-    |>Supply.changeset()
-    |>Repo.insert()
-    |>handle_insert()
+    |> Supply.changeset()
+    |> Repo.insert()
+    |> handle_insert()
   end
 
   defp handle_insert({:ok, %Supply{}} = result), do: result

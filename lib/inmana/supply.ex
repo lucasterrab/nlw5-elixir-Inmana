@@ -23,9 +23,9 @@ defmodule Inmana.Supply do
 
   def changeset(params) do
     %__MODULE__{}
-    |>cast(params, @required_params)
-    |>validate_required(@required_params)
-    |>validate_length(:description, min: 3)
-    |>validate_length(:responsible, min: 2)
+    |> cast(params, @required_params)
+    |> validate_required(@required_params)
+    |> validate_length(:description, min: 3)
+    |> validate_length(:responsible, min: 2)
   end
 end

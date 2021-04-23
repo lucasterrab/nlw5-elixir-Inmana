@@ -18,7 +18,11 @@ defmodule Inmana.Supplies.ExpirationEmail do
     Enum.reduce(supplies, initial_text, fn supply, text -> text <> supply_string(supply) end)
   end
 
-  defp supply_string(%Supply{description: description, expiration_date: expiration_date, responsible: responsible}) do
+  defp supply_string(%Supply{
+         description: description,
+         expiration_date: expiration_date,
+         responsible: responsible
+       }) do
     "Description: #{description}, Expiration Date: #{expiration_date}, Responsible: #{responsible}\n"
   end
 end

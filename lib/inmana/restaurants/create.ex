@@ -3,9 +3,9 @@ defmodule Inmana.Restaurants.Create do
 
   def call(params) do
     params
-    |>Restaurant.changeset()
-    |>Repo.insert()
-    |>handle_insert()
+    |> Restaurant.changeset()
+    |> Repo.insert()
+    |> handle_insert()
   end
 
   defp handle_insert({:ok, %Restaurant{}} = result), do: result

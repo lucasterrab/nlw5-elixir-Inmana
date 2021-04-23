@@ -21,10 +21,10 @@ defmodule Inmana.Restaurant do
 
   def changeset(params) do
     %__MODULE__{}
-    |>cast(params, @required_params)
-    |>validate_required(@required_params)
-    |>validate_length(:name, min: 2)
-    |>validate_format(:email, ~r/@/)
-    |>unique_constraint([:email])
+    |> cast(params, @required_params)
+    |> validate_required(@required_params)
+    |> validate_length(:name, min: 2)
+    |> validate_format(:email, ~r/@/)
+    |> unique_constraint([:email])
   end
 end
